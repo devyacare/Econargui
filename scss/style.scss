@@ -1,0 +1,16 @@
+// imports
+
+//base
+@import './base/reset';
+
+//layout
+@import './layout/footer';
+@import './layout/index';
+@import './layout/productos';
+@import './layout/eventos';
+@import './layout/nosotros';
+
+//mediaquerys
+@import './media/mediaq-index';
+@import './media/mediaq-productos';
+@import './media/mediaq-nosotros';
