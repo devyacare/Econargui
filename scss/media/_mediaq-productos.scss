@@ -1,0 +1,31 @@
+@media only screen and (max-width: 720px){
+    .container-productos{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+
+        .narguila{
+            .img-narguila{
+                grid-row: 1 / 2;
+            }
+        }
+
+        .tabaco{
+            .img-tabaco{
+                grid-row: 3 / 4;
+            }
+        }
+
+        .carbones{
+            .img-carbones{
+                grid-row: 5 / 6;
+            }
+        }
+
+        .accesorios{
+            .img-accesorios{
+                grid-row: 7 / 8;
+            }
+        }
+    }
+}
