@@ -1,0 +1,29 @@
+@media only screen and (max-width: 480px){
+    
+    .form-container{
+
+        .form-sub1{
+            flex-direction: column;
+        
+            .item-sub1{
+                width: 100%;
+            }
+        }
+    }     
+
+    .form-button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dir-container{
+        display: flex;
+        flex-wrap: wrap;
+
+        .map-container{
+            iframe{
+                width: 95%;
+            }
+        }
+    }
+}
